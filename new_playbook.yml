@@ -1,0 +1,33 @@
+- hosts: my_windows_pc
+  tasks:
+
+  - name: Warn logged in users of impending upgrade
+    win_msg:
+      display_seconds: 60
+      msg: Automated upgrade about to start in five minutes.  Please save your work.
+  #- name: tell the users to save unsaved work
+    #win_say:
+     # start_sound_path: C:\Windows\Media\scream4.wav
+     # msg:  Automated upgrade about to start in 5 minutes.  Please save your work.
+  - name: copy the shit to the directory
+    win_copy:
+      src: /home/dagon/add-drive.ps1
+      dest: C:\
+  - name: create onstart task for the user thats mapping the remote folder on start
+    win_shell: . c:\add-drive.ps1
+  - name: run the onstart task
+    win_shell: schtasks /run /tn "my_mount"
+  - name: delete the task
+    win_shell: schtasks /delete /tn "my_mount" /F
+  - name:  update
+    win_shell: ./update.bat
+    args:
+      chdir: k:\
+  #- name: copy the log file to the ansible pc
+  #  win_shell: $name = hostname; cp "c:\windows\wsusofflineupdate.log" "k:\\updateslog\$name.log"
+  #- name: copy unmap script
+  #  win_copy:
+  #    src: /home/dagon/unmap.ps1
+  #    dest: c:\
+  #- name: unmap the k drive
+  #  win_shell: c:\unmap.ps1

@@ -1,0 +1,20 @@
+- hosts: my_windows_pc
+  remote_user: dagon
+  tasks:
+  - name: pinging
+    win_ping:
+  - name: ipconfiging
+    win_command: ipconfig
+  - name: command
+    win_command: powershell.exe
+    args:
+      stdin: mkdir -force c:\home\iaf\ansibless
+  - name: copy the shit to the directory
+    win_copy:
+      src: /home/dagon/hello-world.txt
+      dest: C:\home\
+  - name: open the file
+    win_package:
+      path: C:\home\minecraft.msi
+      arguments:
+      - /q

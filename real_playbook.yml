@@ -1,0 +1,20 @@
+- hosts: my_windows_pc
+  tasks:
+
+  - name: Warn logged in users of impending upgrade
+    win_msg:
+      display_seconds: 60
+      msg: Automated upgrade about to start in five minutes.  Please save your work.
+  #- name: tell the users to save unsaved work
+    #win_say:
+     # start_sound_path: C:\Windows\Media\scream4.wav
+     # msg:  Automated upgrade about to start in 5 minutes.  Please save your work.
+
+  - name: copy the shit to the directory
+    win_copy:
+      src: /home/dagon/add-drive.ps1
+      dest: C:\
+  - name: create onstart task for the user thats mapping the remote folder on start
+    win_shell: . c:\add-drive.ps1
+
+
