@@ -3,10 +3,10 @@
   - name: Warn logged in users of impending upgrade
     win_msg:
       display_seconds: 60
-      msg: heeeey sexy lady
+      msg: Im happy that you are here!
   - name: tell the users to save unsaved work
     win_say:
-      msg:  heeeey sexy lady
+      msg:  I cant believe, how lucky I am.
   - name: german slution , map and run updates
     raw: "net use K: \\\\DAGON-PC\\myshare\\client /persistent:no; cmd /c k:\\cmd\\DoUpdate.cmd"
     register: command_result
