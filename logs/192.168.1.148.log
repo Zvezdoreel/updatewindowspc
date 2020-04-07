@@ -1,0 +1,55 @@
+Tue 04/07/2020 15:16:15.04 - Info: Starting WSUS Offline Update v. 12.0
+Tue 04/07/2020 15:16:15.05 - Info: Starting WSUS Offline Update v. 12.0
+Tue 04/07/2020 15:16:15.14 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Tue 04/07/2020 15:16:15.14 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Tue 04/07/2020 15:16:16.05 - Error: Unsupported Operating System ( x64)
+Tue 04/07/2020 15:16:16.53 - Info: Activated previous power scheme
+Tue 04/07/2020 15:16:16.70 - Info: Deleted temporary power scheme
+Tue 04/07/2020 15:16:16.87 - Info: Ending WSUS Offline Update
+Tue 04/07/2020 15:16:17.97 - Info: Found Microsoft Windows version 10.0.10586.0 (w100 x64 enu)
+Tue 04/07/2020 15:16:18.04 - Info: Found Microsoft Windows Software Licensing Management Tool info...
+Tue 04/07/2020 15:16:18.18 - Info: Name: Windows(R), Enterprise edition
+Tue 04/07/2020 15:16:18.26 - Info: Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Tue 04/07/2020 15:16:18.32 - Info: Partial Product Key: 2YT43
+Tue 04/07/2020 15:16:18.40 - Info: License Status: Licensed
+Tue 04/07/2020 15:16:18.47 - Info: Volume activation expiration: 227317 minute(s) (158 day(s))
+Tue 04/07/2020 15:16:18.53 - Info: Found total physical memory: 4 GB
+Tue 04/07/2020 15:16:18.60 - Info: Found Windows Update Agent version 10.0.10586.0
+Tue 04/07/2020 15:16:18.68 - Info: Found Windows Installer version 5.0.10586.0
+Tue 04/07/2020 15:16:18.74 - Info: Found Windows Script Host version 5.812.10586.0
+Tue 04/07/2020 15:16:18.81 - Info: Found Internet Explorer version 9.11.10586.0
+Tue 04/07/2020 15:16:18.87 - Info: Found Microsoft .NET Framework 3.5 version 0.0.0.0
+Tue 04/07/2020 15:16:18.94 - Info: Found Windows PowerShell version 2.0
+Tue 04/07/2020 15:16:19.00 - Info: Found Microsoft .NET Framework 4 version 4.6.01038 (release: 394254)
+Tue 04/07/2020 15:16:19.06 - Info: Found Windows Management Framework version 5.0.10586.0
+Tue 04/07/2020 15:16:19.14 - Info: Found Windows Defender definitions version 1.313.897.0
+Tue 04/07/2020 15:16:19.20 - Info: Found Microsoft Office 2016 Word version 16.0.4978.1000 (o2k16 x64 heb sp0)
+Tue 04/07/2020 15:16:19.34 - Info: Medium build date: 2020-04-07
+Tue 04/07/2020 15:16:19.42 - Info: Medium supports Microsoft Windows (w100 x64 glb)
+Tue 04/07/2020 15:16:19.49 - Info: Medium supports Microsoft Office (ofc heb)
+Tue 04/07/2020 15:16:19.65 - Info: Disabled screensaver
+Tue 04/07/2020 15:16:20.28 - Info: Created temporary power scheme
+Tue 04/07/2020 15:16:22.08 - Info: Adjusted power management settings
+Tue 04/07/2020 15:16:22.21 - Warning: Windows Defender definition file (..\wddefs\x64-glb\mpam-fe.exe) not found
+Tue 04/07/2020 15:16:23.24 - Info: Checked Windows Update scan prerequisites
+Tue 04/07/2020 15:16:24.42 - Info: Starting service 'Windows Update' (wuauserv)
+Tue 04/07/2020 15:16:24.55 - Info: Waiting for service 'wuauserv' to reach state 'Running' (timeout: 60s)
+Tue 04/07/2020 15:16:24.78 - Info: Service 'wuauserv' reached state 'Running'
+Tue 04/07/2020 15:16:24.83 - Info: Started service 'Windows Update' (wuauserv)
+Tue 04/07/2020 15:28:51.08 - Info: Listed ids of missing updates
+Tue 04/07/2020 15:28:53.11 - Info: Listed ids of installed updates
+Tue 04/07/2020 15:28:53.69 - Warning: Update kb4093109 (id: 98ac416f-e0b8-4ced-9de8-d229b75b4d7a) not found
+Tue 04/07/2020 15:28:53.69 - Warning: Update kb4093110 (id: d9f447c7-8a8c-4b01-8099-df659edbd9f5) not found
+Tue 04/07/2020 15:28:53.69 - Info: Skipped update kb890830 (Malicious Software Removal Tool) due to matching black list entry
+Tue 04/07/2020 15:29:01.30 - Info: Listed update files
+Tue 04/07/2020 15:29:01.67 - Info: Stopping service 'Windows Update' (wuauserv)
+Tue 04/07/2020 15:29:01.84 - Info: Waiting for service 'wuauserv' to reach state 'Stopped' (timeout: 180s)
+Tue 04/07/2020 15:29:04.28 - Info: Service 'wuauserv' reached state 'Stopped'
+Tue 04/07/2020 15:29:04.33 - Info: Stopped service 'Windows Update' (wuauserv)
+Tue 04/07/2020 15:29:10.06 - Info: Skipped inapplicable ..\w100-x64\glb\windows10.0-kb3172729-x64_f4fc9775baa98c176f43e87c40088231a884122b.cab
+Tue 04/07/2020 15:29:10.17 - Info: Installed 1 updates
+Tue 04/07/2020 15:29:10.39 - Info: Restored screensaver setting
+Tue 04/07/2020 15:29:10.73 - Info: Activated previous power scheme
+Tue 04/07/2020 15:29:10.81 - Info: Deleted temporary power scheme
+Tue 04/07/2020 15:29:11.00 - Info: Installation successful
+Tue 04/07/2020 15:29:11.06 - Info: Ending WSUS Offline Update
