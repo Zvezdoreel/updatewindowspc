@@ -1,0 +1,37 @@
+Tue 04/07/2020 15:45:52.02 - Info: Starting WSUS Offline Update v. 12.0
+Tue 04/07/2020 15:45:52.19 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Tue 04/07/2020 15:46:12.66 - Info: Found Microsoft Windows version 10.0.18363.1 (w100 x64 enu)
+Tue 04/07/2020 15:46:13.93 - Info: Found Microsoft Windows Software Licensing Management Tool info...
+Tue 04/07/2020 15:46:15.87 - Info: Name: Windows(R), Enterprise edition
+Tue 04/07/2020 15:46:16.62 - Info: Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Tue 04/07/2020 15:46:17.19 - Info: Partial Product Key: 2YT43
+Tue 04/07/2020 15:46:17.79 - Info: License Status: Licensed
+Tue 04/07/2020 15:46:18.22 - Info: Volume activation expiration: 66079 minute(s) (46 day(s))
+Tue 04/07/2020 15:46:18.72 - Info: Found total physical memory: 4 GB
+Tue 04/07/2020 15:46:20.26 - Info: Found Windows Update Agent version 10.0.18362.628
+Tue 04/07/2020 15:46:21.10 - Info: Found Windows Installer version 5.0.18362.719
+Tue 04/07/2020 15:46:22.08 - Info: Found Windows Script Host version 5.812.10240.16384
+Tue 04/07/2020 15:46:22.94 - Info: Found Internet Explorer version 9.11.18362.0
+Tue 04/07/2020 15:46:23.49 - Info: Found Microsoft .NET Framework 3.5 version 0.0.0.0
+Tue 04/07/2020 15:46:25.42 - Info: Found Windows PowerShell version 2.0
+Tue 04/07/2020 15:46:26.00 - Info: Found Microsoft .NET Framework 4 version 4.8.03752 (release: 528040)
+Tue 04/07/2020 15:46:26.56 - Info: Found Windows Management Framework version 5.1.18362.1
+Tue 04/07/2020 15:46:27.17 - Info: Found Windows Defender definitions version 1.311.1682.0
+Tue 04/07/2020 15:46:27.73 - Info: Found Microsoft Office 2016 Word version 16.0.4978.1000 (o2k16 x64 heb sp0)
+Tue 04/07/2020 15:46:28.96 - Info: Medium build date: 2020-04-07
+Tue 04/07/2020 15:46:29.52 - Info: Medium supports Microsoft Windows (w100 x64 glb)
+Tue 04/07/2020 15:46:30.21 - Info: Medium supports Microsoft Office (ofc heb)
+Tue 04/07/2020 15:46:31.89 - Info: Disabled screensaver
+Tue 04/07/2020 15:46:41.82 - Info: Checked Windows Update scan prerequisites
+Tue 04/07/2020 15:46:56.42 - Info: Starting service 'Windows Update' (wuauserv)
+Tue 04/07/2020 15:46:58.53 - Info: Waiting for service 'wuauserv' to reach state 'Running' (timeout: 60s)
+Tue 04/07/2020 15:47:00.95 - Info: Service 'wuauserv' reached state 'Running'
+Tue 04/07/2020 15:47:02.26 - Info: Started service 'Windows Update' (wuauserv)
+Tue 04/07/2020 15:59:05.45 - Info: Listed ids of missing updates
+Tue 04/07/2020 15:59:07.68 - Info: Listed ids of installed updates
+Tue 04/07/2020 15:59:08.52 - Warning: Update kb4052908 (id: 6e9a6c8e-8e0c-4f7a-b2ad-4af752667661) not found
+Tue 04/07/2020 15:59:14.94 - Info: Listed update files
+Tue 04/07/2020 15:59:15.01 - Info: Any missing update was either black listed or not found
+Tue 04/07/2020 15:59:15.25 - Info: Restored screensaver setting
+Tue 04/07/2020 15:59:15.35 - Warning: Deletion of temporary power scheme failed
+Tue 04/07/2020 15:59:15.51 - Info: Ending WSUS Offline Update
