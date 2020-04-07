@@ -1,0 +1,311 @@
+Sun 04/05/2020 11:09:35.05 - Info: Starting WSUS Offline Update v. 12.0
+Sun 04/05/2020 11:09:35.15 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Sun 04/05/2020 11:09:41.31 - Info: Found Microsoft Windows version 10.0.10586.0 (w100 x64 enu)
+Sun 04/05/2020 11:09:41.39 - Info: Found Microsoft Windows Software Licensing Management Tool info...
+Sun 04/05/2020 11:09:41.72 - Info: Name: Windows(R), Enterprise edition
+Sun 04/05/2020 11:09:41.86 - Info: Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Sun 04/05/2020 11:09:42.02 - Info: Partial Product Key: 2YT43
+Sun 04/05/2020 11:09:42.36 - Info: License Status: Licensed
+Sun 04/05/2020 11:09:42.58 - Info: Volume activation expiration: 230444 minute(s) (161 day(s))
+Sun 04/05/2020 11:09:42.75 - Info: Found total physical memory: 4 GB
+Sun 04/05/2020 11:09:42.93 - Info: Found Windows Update Agent version 10.0.10586.0
+Sun 04/05/2020 11:09:43.10 - Info: Found Windows Installer version 5.0.10586.0
+Sun 04/05/2020 11:09:43.33 - Info: Found Windows Script Host version 5.812.10586.0
+Sun 04/05/2020 11:09:43.57 - Info: Found Internet Explorer version 9.11.10586.0
+Sun 04/05/2020 11:09:43.65 - Info: Found Microsoft .NET Framework 3.5 version 0.0.0.0
+Sun 04/05/2020 11:09:43.73 - Info: Found Windows PowerShell version 2.0
+Sun 04/05/2020 11:09:43.80 - Info: Found Microsoft .NET Framework 4 version 4.6.01038 (release: 394254)
+Sun 04/05/2020 11:09:43.88 - Info: Found Windows Management Framework version 5.0.10586.0
+Sun 04/05/2020 11:09:44.10 - Info: Found Windows Defender definitions version 1.313.748.0
+Sun 04/05/2020 11:09:44.32 - Info: Found Microsoft Office 2016 Word version 16.0.4266.1001 (o2k16 x64 heb sp0)
+Sun 04/05/2020 11:09:44.95 - Info: Medium build date: 2020-03-31
+Sun 04/05/2020 11:09:45.18 - Info: Medium supports Microsoft Windows (w100 x64 glb)
+Sun 04/05/2020 11:09:45.40 - Info: Medium does not support Microsoft Office (ofc glb)
+Sun 04/05/2020 11:09:45.83 - Info: Disabled screensaver
+Sun 04/05/2020 11:09:47.63 - Info: Created temporary power scheme
+Sun 04/05/2020 11:09:49.71 - Info: Adjusted power management settings
+Sun 04/05/2020 11:09:50.01 - Warning: Windows Defender definition file (..\wddefs\x64-glb\mpam-fe.exe) not found
+Sun 04/05/2020 11:09:52.28 - Info: Checked Windows Update scan prerequisites
+Sun 04/05/2020 11:09:55.72 - Info: Starting service 'Windows Update' (wuauserv)
+Sun 04/05/2020 11:09:56.27 - Info: Waiting for service 'wuauserv' to reach state 'Running' (timeout: 60s)
+Sun 04/05/2020 11:09:56.80 - Info: Service 'wuauserv' reached state 'Running'
+Sun 04/05/2020 11:09:56.98 - Info: Started service 'Windows Update' (wuauserv)
+Sun 04/05/2020 11:37:50.59 - Info: Listed ids of missing updates
+Sun 04/05/2020 11:37:53.30 - Info: Listed ids of installed updates
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb3085538 (id: 69500f2f-aec8-47ae-8133-bced4c2f62af) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb2920680 (id: f41828db-20e8-4a3b-8e75-d53cb66ac62f) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb3115103 (id: 478e82fb-5267-49ff-b49d-841d10e974e2) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb3115041 (id: 6bcff580-e013-48e4-b947-553673d06cad) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb3115419 (id: 9572ffd6-54c2-40ab-8880-50badd647e9a) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb3115135 (id: d1b9f6cd-f4f3-4b5b-b856-d86cc09e5269) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb3178667 (id: 11bd3d23-81ac-4604-a253-24ab0edc76c6) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb3213551 (id: e9e7e31d-06cb-4d85-8457-3a3914b42b90) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4011126 (id: 630763c5-383b-46bc-8fd5-a920f97881ec) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4011574 (id: 79f7b3b7-dd41-40e6-993f-eb5bcab2482b) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4018319 (id: 6764d280-e5a6-4b44-8d1b-2cee2cbce30e) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4011628 (id: 5de6218a-2b59-4358-bcc4-2ee58f35f398) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4093109 (id: 98ac416f-e0b8-4ced-9de8-d229b75b4d7a) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4093110 (id: d9f447c7-8a8c-4b01-8099-df659edbd9f5) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4018338 (id: a20620f7-aa57-4861-93da-80a749aca389) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4022176 (id: 17e62ce6-8591-4591-9e39-fccabe441732) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4022172 (id: d5811a81-ba21-4f52-9129-cfb8e3bfe3ff) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4022162 (id: d8ed371c-d7db-402d-9b58-0360295e0d50) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4475545 (id: dbef1892-3c34-43ae-9f8d-9889eadbd790) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4475514 (id: f47497b2-5ade-497c-9123-bb5a30f8487e) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4464534 (id: d74299bc-69fe-4d3a-82f6-1c03a287aab8) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4475589 (id: 41600be6-dd71-4ae6-ae3d-6eae4fbf80c7) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4475583 (id: 1a9a9903-1373-4f31-aa12-67cf9f97baf3) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4484180 (id: 6d15313a-6431-4ae9-92c3-02058f54e45b) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4484166 (id: 79787609-3567-42a2-8354-ade6ffaaac09) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4484221 (id: 69bc1bc6-1d69-4f9e-8cdd-6662011b8a3c) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4484256 (id: 3ac7adc3-6541-4232-a79b-017a769c5800) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4484250 (id: fff9a840-f7bd-438d-aa43-42496466de62) not found
+Sun 04/05/2020 11:37:55.80 - Warning: Update kb4484268 (id: c7eefac8-5c51-4fa2-9a5e-bde43b92a0ef) not found
+Sun 04/05/2020 11:37:55.80 - Info: Skipped update kb890830 (Malicious Software Removal Tool) due to matching black list entry
+Sun 04/05/2020 11:43:06.27 - Info: Listed update files
+Sun 04/05/2020 11:43:07.20 - Info: Stopping service 'Windows Update' (wuauserv)
+Sun 04/05/2020 11:43:07.66 - Info: Waiting for service 'wuauserv' to reach state 'Stopped' (timeout: 180s)
+Sun 04/05/2020 11:43:08.31 - Info: Service 'wuauserv' reached state 'Stopped'
+Sun 04/05/2020 11:43:08.49 - Info: Stopped service 'Windows Update' (wuauserv)
+Sun 04/05/2020 11:43:16.74 - Info: Skipped inapplicable ..\w100-x64\glb\windows10.0-kb3172729-x64_f4fc9775baa98c176f43e87c40088231a884122b.cab
+Sun 04/05/2020 11:43:16.95 - Info: Installed 1 updates
+Sun 04/05/2020 11:43:17.68 - Info: Restored screensaver setting
+Sun 04/05/2020 11:43:18.28 - Info: Activated previous power scheme
+Sun 04/05/2020 11:43:18.53 - Info: Deleted temporary power scheme
+Sun 04/05/2020 11:43:19.27 - Info: Installation successful
+Sun 04/05/2020 11:43:19.66 - Info: Ending WSUS Offline Update
+
+--------------------------------------------------------------------------------
+
+Sun 04/05/2020 12:58:19.07 - Info: Starting WSUS Offline Update v. 12.0
+Sun 04/05/2020 12:58:19.21 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Sun 04/05/2020 12:58:23.61 - Info: Found Microsoft Windows version 10.0.10586.0 (w100 x64 enu)
+Sun 04/05/2020 12:58:23.71 - Info: Found Microsoft Windows Software Licensing Management Tool info...
+Sun 04/05/2020 12:58:23.87 - Info: Name: Windows(R), Enterprise edition
+Sun 04/05/2020 12:58:24.00 - Info: Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Sun 04/05/2020 12:58:24.09 - Info: Partial Product Key: 2YT43
+Sun 04/05/2020 12:58:24.18 - Info: License Status: Licensed
+Sun 04/05/2020 12:58:24.25 - Info: Volume activation expiration: 230335 minute(s) (160 day(s))
+Sun 04/05/2020 12:58:24.34 - Info: Found total physical memory: 4 GB
+Sun 04/05/2020 12:58:24.43 - Info: Found Windows Update Agent version 10.0.10586.0
+Sun 04/05/2020 12:58:24.52 - Info: Found Windows Installer version 5.0.10586.0
+Sun 04/05/2020 12:58:24.63 - Info: Found Windows Script Host version 5.812.10586.0
+Sun 04/05/2020 12:58:24.75 - Info: Found Internet Explorer version 9.11.10586.0
+Sun 04/05/2020 12:58:24.85 - Info: Found Microsoft .NET Framework 3.5 version 0.0.0.0
+Sun 04/05/2020 12:58:24.97 - Info: Found Windows PowerShell version 2.0
+Sun 04/05/2020 12:58:25.13 - Info: Found Microsoft .NET Framework 4 version 4.6.01038 (release: 394254)
+Sun 04/05/2020 12:58:25.22 - Info: Found Windows Management Framework version 5.0.10586.0
+Sun 04/05/2020 12:58:25.32 - Info: Found Windows Defender definitions version 1.313.748.0
+Sun 04/05/2020 12:58:25.42 - Info: Found Microsoft Office 2016 Word version 16.0.4266.1001 (o2k16 x64 heb sp0)
+Sun 04/05/2020 12:58:25.63 - Info: Medium build date: 2020-04-05
+Sun 04/05/2020 12:58:25.73 - Info: Medium supports Microsoft Windows (w100 x64 glb)
+Sun 04/05/2020 12:58:25.83 - Info: Medium supports Microsoft Office (ofc heb)
+Sun 04/05/2020 12:58:26.04 - Info: Disabled screensaver
+Sun 04/05/2020 12:58:26.83 - Info: Created temporary power scheme
+Sun 04/05/2020 12:58:29.09 - Info: Adjusted power management settings
+Sun 04/05/2020 12:58:29.25 - Warning: Windows Defender definition file (..\wddefs\x64-glb\mpam-fe.exe) not found
+Sun 04/05/2020 12:58:30.34 - Info: Checked Windows Update scan prerequisites
+Sun 04/05/2020 12:58:32.05 - Info: Starting service 'Windows Update' (wuauserv)
+Sun 04/05/2020 12:58:32.28 - Info: Waiting for service 'wuauserv' to reach state 'Running' (timeout: 60s)
+Sun 04/05/2020 12:58:32.59 - Info: Service 'wuauserv' reached state 'Running'
+Sun 04/05/2020 12:58:32.65 - Info: Started service 'Windows Update' (wuauserv)
+
+--------------------------------------------------------------------------------
+
+Sun 04/05/2020 13:12:35.19 - Info: Starting WSUS Offline Update v. 12.0
+Sun 04/05/2020 13:12:35.30 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Sun 04/05/2020 13:12:39.40 - Info: Found Microsoft Windows version 10.0.10586.0 (w100 x64 enu)
+Sun 04/05/2020 13:12:39.52 - Info: Found Microsoft Windows Software Licensing Management Tool info...
+Sun 04/05/2020 13:12:39.70 - Info: Name: Windows(R), Enterprise edition
+Sun 04/05/2020 13:12:40.01 - Info: Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Sun 04/05/2020 13:12:40.09 - Info: Partial Product Key: 2YT43
+Sun 04/05/2020 13:12:40.22 - Info: License Status: Licensed
+Sun 04/05/2020 13:12:40.32 - Info: Volume activation expiration: 230321 minute(s) (160 day(s))
+Sun 04/05/2020 13:12:40.42 - Info: Found total physical memory: 4 GB
+Sun 04/05/2020 13:12:40.51 - Info: Found Windows Update Agent version 10.0.10586.0
+Sun 04/05/2020 13:12:40.61 - Info: Found Windows Installer version 5.0.10586.0
+Sun 04/05/2020 13:12:40.71 - Info: Found Windows Script Host version 5.812.10586.0
+Sun 04/05/2020 13:12:40.87 - Info: Found Internet Explorer version 9.11.10586.0
+Sun 04/05/2020 13:12:40.96 - Info: Found Microsoft .NET Framework 3.5 version 0.0.0.0
+Sun 04/05/2020 13:12:41.06 - Info: Found Windows PowerShell version 2.0
+Sun 04/05/2020 13:12:41.16 - Info: Found Microsoft .NET Framework 4 version 4.6.01038 (release: 394254)
+Sun 04/05/2020 13:12:41.26 - Info: Found Windows Management Framework version 5.0.10586.0
+Sun 04/05/2020 13:12:41.36 - Info: Found Windows Defender definitions version 1.313.748.0
+Sun 04/05/2020 13:12:41.46 - Info: Found Microsoft Office 2016 Word version 16.0.4266.1001 (o2k16 x64 heb sp0)
+Sun 04/05/2020 13:12:41.87 - Info: Medium build date: 2020-04-05
+Sun 04/05/2020 13:12:42.00 - Info: Medium supports Microsoft Windows (w100 x64 glb)
+Sun 04/05/2020 13:12:42.11 - Info: Medium supports Microsoft Office (ofc heb)
+Sun 04/05/2020 13:12:42.49 - Info: Disabled screensaver
+Sun 04/05/2020 13:12:42.67 - Warning: Windows Defender definition file (..\wddefs\x64-glb\mpam-fe.exe) not found
+Sun 04/05/2020 13:12:45.06 - Info: Checked Windows Update scan prerequisites
+Sun 04/05/2020 13:12:46.90 - Info: Stopping service 'Windows Update' (wuauserv)
+Sun 04/05/2020 13:12:47.28 - Info: Waiting for service 'wuauserv' to reach state 'Stopped' (timeout: 180s)
+Sun 04/05/2020 13:12:54.18 - Info: Listed ids of missing updates
+Sun 04/05/2020 13:12:55.53 - Info: Listed ids of installed updates
+Sun 04/05/2020 13:12:57.71 - Info: Listed update files
+Sun 04/05/2020 13:12:57.89 - Info: No missing update found
+Sun 04/05/2020 13:12:58.33 - Info: Restored screensaver setting
+Sun 04/05/2020 13:12:59.03 - Info: Activated previous power scheme
+Sun 04/05/2020 13:12:59.22 - Info: Deleted temporary power scheme
+Sun 04/05/2020 13:12:59.92 - Info: Ending WSUS Offline Update
+Sun 04/05/2020 13:16:44.03 - Warning: Service 'wuauserv' did not reach state 'Stopped' in time
+Sun 04/05/2020 13:49:06.80 - Info: Listed ids of missing updates
+Sun 04/05/2020 13:49:09.03 - Info: Listed ids of installed updates
+Sun 04/05/2020 13:49:09.91 - Warning: Update kb4093109 (id: 98ac416f-e0b8-4ced-9de8-d229b75b4d7a) not found
+Sun 04/05/2020 13:49:09.91 - Warning: Update kb4093110 (id: d9f447c7-8a8c-4b01-8099-df659edbd9f5) not found
+Sun 04/05/2020 13:49:09.91 - Info: Skipped update kb890830 (Malicious Software Removal Tool) due to matching black list entry
+Sun 04/05/2020 13:51:30.57 - Info: Listed update files
+Sun 04/05/2020 13:51:31.69 - Info: Stopping service 'Windows Update' (wuauserv)
+Sun 04/05/2020 13:51:32.03 - Info: Waiting for service 'wuauserv' to reach state 'Stopped' (timeout: 180s)
+Sun 04/05/2020 13:51:37.64 - Info: Service 'wuauserv' reached state 'Stopped'
+Sun 04/05/2020 13:51:37.71 - Info: Stopped service 'Windows Update' (wuauserv)
+Sun 04/05/2020 13:52:12.93 - Info: Installed ..\ofc\glb\ieawsdc-x-none_07d6c6b06dea7dde9f7f2bf83bb0a06fa969231f.cab
+Sun 04/05/2020 13:53:04.31 - Info: Installed ..\ofc\glb\publisher-x-none_8eabca3b6e82309c0f4f600e41f17f5c1105a6aa.cab
+Sun 04/05/2020 13:53:34.92 - Info: Installed ..\ofc\glb\msodll40ui-x-none_851dc32327882ae526cf1aa59e1a93131f761d45.cab
+Sun 04/05/2020 13:53:36.52 - Warning: Installation of ..\o2k16\glb\visio2016-kb3115041-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 13:54:26.96 - Info: Installed ..\ofc\glb\onenote-x-none_7b43d76667d780330aef3475942b8d26a9242bdc.cab
+Sun 04/05/2020 13:54:47.36 - Info: Installed ..\ofc\glb\vbe7-x-none_7cf77eaf81b12cb3324623219f892ce0dd9a2a00.cab
+Sun 04/05/2020 13:55:18.17 - Info: Installed ..\ofc\glb\msodll20-x-none_777d2290a9cfc9ea735b0499bf582d179653d583.cab
+Sun 04/05/2020 13:55:25.62 - Info: Skipped inapplicable ..\w100-x64\glb\windows10.0-kb3172729-x64_f4fc9775baa98c176f43e87c40088231a884122b.cab
+Sun 04/05/2020 13:55:26.64 - Warning: Installation of ..\o2k16\glb\conv2016-kb3213551-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 13:55:54.54 - Info: Installed ..\ofc\glb\msodll30-x-none_e43e9535cb8eeeb5b18fed3092093d353a81ef6a.cab
+Sun 04/05/2020 13:55:55.90 - Warning: Installation of ..\o2k16\glb\eqnedt322016-kb4011574-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 13:56:22.78 - Info: Installed ..\ofc\glb\chart-x-none_51501a9544ed6d25dd910295f1beb5fc72ed73c6.cab
+Sun 04/05/2020 13:56:59.42 - Info: Installed ..\ofc\glb\oart-x-none_b92df3ef678a5d78a69417a3bd50289f8bfcc519.cab
+Sun 04/05/2020 13:57:44.49 - Info: Installed ..\ofc\glb\access-x-none_87e840dec3f99402f5a4c7cbf09f5985f183a518.cab
+Sun 04/05/2020 13:58:13.83 - Info: Installed ..\ofc\glb\ose-x-none_7ba616e80ace118c7469b15b136b0355067af01b.cab
+Sun 04/05/2020 13:58:38.71 - Info: Installed ..\ofc\glb\osetup-x-none_841c727872ac78b4725c3bb859008fe1a4da551d.cab
+Sun 04/05/2020 13:59:21.35 - Info: Installed ..\ofc\glb\msohevi-x-none_7e3aa376c7f79f8c0ac2051c7955ee796520ceee.cab
+Sun 04/05/2020 13:59:22.98 - Warning: Installation of ..\o2k16\glb\lync2016-kb4475545-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 13:59:24.59 - Warning: Installation of ..\o2k16\glb\msodll99l2016-kb4475514-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 13:59:26.30 - Warning: Installation of ..\o2k16\glb\osfclient2016-kb4464534-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 13:59:27.74 - Warning: Installation of ..\o2k16\glb\project2016-kb4475589-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 14:03:19.76 - Info: Installed ..\ofc\glb\mso-x-none_6b3277706c3c5d7a6c67c6dc5de642ad26023897.cab
+Sun 04/05/2020 14:03:51.81 - Info: Installed ..\ofc\glb\ace-x-none_188bd9aafb3e302bd7630f4be9acf65c94e6035b.cab
+Sun 04/05/2020 14:04:39.71 - Info: Installed ..\ofc\glb\powerpoint-x-none_f784c696da4a22c63048985878ecc3d60950130d.cab
+Sun 04/05/2020 14:05:06.01 - Info: Installed ..\ofc\glb\graph-x-none_10ee4da899172adced128581fea490c29c477def.cab
+Sun 04/05/2020 14:08:25.73 - Info: Installed ..\ofc\glb\excel-x-none_ec35ca6b6ffa2d4e3586870d840e686220cf9884.cab
+Sun 04/05/2020 14:10:20.17 - Info: Installed ..\ofc\glb\outlook-x-none_cac7047d2cfa5a568bc2cd72694af4533579c21e.cab
+Sun 04/05/2020 14:11:41.22 - Info: Installed ..\ofc\glb\word-x-none_82721cc1e2360c6f2024250ecec4908978a5f0c8.cab
+Sun 04/05/2020 14:11:41.75 - Info: Installed 28 updates
+Sun 04/05/2020 14:11:42.46 - Info: Restored screensaver setting
+Sun 04/05/2020 14:11:42.72 - Info: Installation successful
+Sun 04/05/2020 14:11:42.81 - Info: Ending WSUS Offline Update
+
+
+Sun 04/05/2020 17:31:22.69 - Info: Starting WSUS Offline Update v. 12.0
+Sun 04/05/2020 17:31:22.70 - Info: Starting WSUS Offline Update v. 12.0
+Sun 04/05/2020 17:31:22.79 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Sun 04/05/2020 17:31:22.79 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Sun 04/05/2020 17:31:29.96 - Info: Found Microsoft Windows version 10.0.10586.0 (w100 x64 enu)
+Sun 04/05/2020 17:31:30.05 - Info: Found Microsoft Windows Software Licensing Management Tool info...
+Sun 04/05/2020 17:31:30.86 - Info: Name: Windows(R), Enterprise edition
+Sun 04/05/2020 17:31:31.56 - Info: Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Sun 04/05/2020 17:31:31.76 - Info: Partial Product Key: 2YT43
+Sun 04/05/2020 17:31:32.01 - Info: License Status: Licensed
+Sun 04/05/2020 17:31:32.33 - Info: Volume activation expiration: 230062 minute(s) (160 day(s))
+Sun 04/05/2020 17:31:32.60 - Info: Found total physical memory:  GB
+Sun 04/05/2020 17:31:32.78 - Info: Found Windows Update Agent version ...
+Sun 04/05/2020 17:31:33.03 - Info: Found Windows Installer version ...
+Sun 04/05/2020 17:31:33.24 - Info: Found Windows Script Host version ...
+Sun 04/05/2020 17:31:33.45 - Info: Found Internet Explorer version ...
+Sun 04/05/2020 17:31:33.67 - Info: Found Microsoft .NET Framework 3.5 version ...
+Sun 04/05/2020 17:31:33.92 - Info: Found Windows PowerShell version .
+Sun 04/05/2020 17:31:34.28 - Info: Found Microsoft .NET Framework 4 version .. (release: )
+Sun 04/05/2020 17:31:34.63 - Info: Found Windows Management Framework version ...
+Sun 04/05/2020 17:31:34.82 - Info: Found Windows Defender definitions version ...
+Sun 04/05/2020 17:31:35.07 - Info: Medium build date: 2020-04-05
+Sun 04/05/2020 17:31:35.30 - Info: Medium supports Microsoft Windows (w100 x64 glb)
+Sun 04/05/2020 17:31:36.02 - Info: Disabled screensaver
+Sun 04/05/2020 17:31:36.57 - Info: Found Microsoft Windows version 10.0.10586.0 (w100 x64 enu)
+Sun 04/05/2020 17:31:36.81 - Info: Found Microsoft Windows Software Licensing Management Tool info...
+Sun 04/05/2020 17:31:37.41 - Info: Name: Windows(R), Enterprise edition
+Sun 04/05/2020 17:31:37.45 - Info: Created temporary power scheme
+Sun 04/05/2020 17:31:37.48 - Info: Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Sun 04/05/2020 17:31:37.79 - Info: Partial Product Key: 2YT43
+Sun 04/05/2020 17:31:38.31 - Info: License Status: Licensed
+Sun 04/05/2020 17:31:38.42 - Info: Volume activation expiration: 230062 minute(s) (160 day(s))
+Sun 04/05/2020 17:31:38.86 - Info: Found total physical memory: 4 GB
+Sun 04/05/2020 17:31:39.10 - Info: Found Windows Update Agent version 10.0.10586.0
+Sun 04/05/2020 17:31:39.24 - Info: Found Windows Installer version 5.0.10586.0
+Sun 04/05/2020 17:31:39.42 - Info: Found Windows Script Host version 5.812.10586.0
+Sun 04/05/2020 17:31:39.64 - Info: Found Internet Explorer version 9.11.10586.0
+Sun 04/05/2020 17:31:39.79 - Info: Found Microsoft .NET Framework 3.5 version 0.0.0.0
+Sun 04/05/2020 17:31:40.06 - Info: Found Windows PowerShell version 2.0
+Sun 04/05/2020 17:31:40.15 - Info: Adjusted power management settings
+Sun 04/05/2020 17:31:40.40 - Info: Found Microsoft .NET Framework 4 version 4.6.01038 (release: 394254)
+Sun 04/05/2020 17:31:40.53 - Info: Found Windows Management Framework version 5.0.10586.0
+Sun 04/05/2020 17:31:40.95 - Info: Found Windows Defender definitions version 1.313.824.0
+Sun 04/05/2020 17:31:41.25 - Info: Found Microsoft Office 2016 Word version 16.0.4978.1000 (o2k16 x64 heb sp0)
+Sun 04/05/2020 17:31:41.76 - Info: Medium build date: 2020-04-05
+Sun 04/05/2020 17:31:42.06 - Info: Medium supports Microsoft Windows (w100 x64 glb)
+Sun 04/05/2020 17:31:42.45 - Info: Medium supports Microsoft Office (ofc heb)
+Sun 04/05/2020 17:31:42.89 - Info: Disabled screensaver
+Sun 04/05/2020 17:31:43.08 - Warning: Windows Defender definition file (..\wddefs\x64-glb\mpam-fe.exe) not found
+Sun 04/05/2020 17:31:45.15 - Info: Checked Windows Update scan prerequisites
+Sun 04/05/2020 17:31:48.67 - Info: Starting service 'Windows Update' (wuauserv)
+Sun 04/05/2020 17:31:48.93 - Info: Waiting for service 'wuauserv' to reach state 'Running' (timeout: 60s)
+Sun 04/05/2020 17:31:49.15 - Info: Service 'wuauserv' reached state 'Running'
+Sun 04/05/2020 17:31:49.21 - Info: Started service 'Windows Update' (wuauserv)
+
+--------------------------------------------------------------------------------
+
+Sun 04/05/2020 17:43:57.41 - Info: Starting WSUS Offline Update v. 12.0
+Sun 04/05/2020 17:44:36.31 - Info: Used path "k:\cmd\" on STANDALONE (user: iaf)
+Sun 04/05/2020 17:44:39.61 - Info: Found Microsoft Windows version 10.0.10586.0 (w100 x64 enu)
+Sun 04/05/2020 17:44:39.67 - Info: Found Microsoft Windows Software Licensing Management Tool info...
+Sun 04/05/2020 17:44:39.78 - Info: Name: Windows(R), Enterprise edition
+Sun 04/05/2020 17:44:39.84 - Info: Description: Windows(R) Operating System, VOLUME_KMSCLIENT channel
+Sun 04/05/2020 17:44:39.92 - Info: Partial Product Key: 2YT43
+Sun 04/05/2020 17:44:39.98 - Info: License Status: Licensed
+Sun 04/05/2020 17:44:40.43 - Info: Volume activation expiration: 230049 minute(s) (160 day(s))
+Sun 04/05/2020 17:44:40.51 - Info: Found total physical memory: 4 GB
+Sun 04/05/2020 17:44:40.61 - Info: Found Windows Update Agent version 10.0.10586.0
+Sun 04/05/2020 17:44:40.69 - Info: Found Windows Installer version 5.0.10586.0
+Sun 04/05/2020 17:44:40.75 - Info: Found Windows Script Host version 5.812.10586.0
+Sun 04/05/2020 17:44:40.83 - Info: Found Internet Explorer version 9.11.10586.0
+Sun 04/05/2020 17:44:40.90 - Info: Found Microsoft .NET Framework 3.5 version 0.0.0.0
+Sun 04/05/2020 17:44:41.00 - Info: Found Windows PowerShell version 2.0
+Sun 04/05/2020 17:44:41.10 - Info: Found Microsoft .NET Framework 4 version 4.6.01038 (release: 394254)
+Sun 04/05/2020 17:44:41.19 - Info: Found Windows Management Framework version 5.0.10586.0
+Sun 04/05/2020 17:44:41.30 - Info: Found Windows Defender definitions version 1.313.824.0
+Sun 04/05/2020 17:44:41.39 - Info: Found Microsoft Office 2016 Word version 16.0.4978.1000 (o2k16 x64 heb sp0)
+Sun 04/05/2020 17:44:41.56 - Info: Medium build date: 2020-04-05
+Sun 04/05/2020 17:44:41.62 - Info: Medium supports Microsoft Windows (w100 x64 glb)
+Sun 04/05/2020 17:44:41.72 - Info: Medium supports Microsoft Office (ofc heb)
+Sun 04/05/2020 17:44:41.86 - Info: Disabled screensaver
+Sun 04/05/2020 17:44:41.99 - Warning: Windows Defender definition file (..\wddefs\x64-glb\mpam-fe.exe) not found
+Sun 04/05/2020 17:44:43.10 - Info: Checked Windows Update scan prerequisites
+Sun 04/05/2020 17:44:44.02 - Info: Stopping service 'Windows Update' (wuauserv)
+Sun 04/05/2020 17:44:44.16 - Info: Waiting for service 'wuauserv' to reach state 'Stopped' (timeout: 180s)
+Sun 04/05/2020 17:45:00.47 - Info: Listed ids of missing updates
+Sun 04/05/2020 17:45:01.28 - Info: Listed ids of installed updates
+Sun 04/05/2020 17:45:01.95 - Info: Listed update files
+Sun 04/05/2020 17:45:02.02 - Info: No missing update found
+Sun 04/05/2020 17:45:02.16 - Info: Restored screensaver setting
+Sun 04/05/2020 17:45:02.63 - Info: Activated previous power scheme
+Sun 04/05/2020 17:45:02.73 - Info: Deleted temporary power scheme
+Sun 04/05/2020 17:45:02.89 - Info: Ending WSUS Offline Update
+Sun 04/05/2020 17:48:35.46 - Warning: Service 'wuauserv' did not reach state 'Stopped' in time
+Sun 04/05/2020 18:06:20.93 - Info: Listed ids of missing updates
+Sun 04/05/2020 18:06:23.57 - Info: Listed ids of installed updates
+Sun 04/05/2020 18:06:24.44 - Warning: Update kb4093109 (id: 98ac416f-e0b8-4ced-9de8-d229b75b4d7a) not found
+Sun 04/05/2020 18:06:24.44 - Warning: Update kb4093110 (id: d9f447c7-8a8c-4b01-8099-df659edbd9f5) not found
+Sun 04/05/2020 18:06:24.44 - Info: Skipped update kb890830 (Malicious Software Removal Tool) due to matching black list entry
+Sun 04/05/2020 18:06:58.05 - Info: Listed update files
+Sun 04/05/2020 18:06:58.68 - Info: Stopping service 'Windows Update' (wuauserv)
+Sun 04/05/2020 18:06:58.85 - Info: Waiting for service 'wuauserv' to reach state 'Stopped' (timeout: 180s)
+Sun 04/05/2020 18:07:01.44 - Info: Service 'wuauserv' reached state 'Stopped'
+Sun 04/05/2020 18:07:01.49 - Info: Stopped service 'Windows Update' (wuauserv)
+Sun 04/05/2020 18:07:02.43 - Warning: Installation of ..\o2k16\glb\visio2016-kb3115041-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 18:07:08.02 - Info: Skipped inapplicable ..\w100-x64\glb\windows10.0-kb3172729-x64_f4fc9775baa98c176f43e87c40088231a884122b.cab
+Sun 04/05/2020 18:07:08.85 - Warning: Installation of ..\o2k16\glb\conv2016-kb3213551-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 18:07:09.73 - Warning: Installation of ..\o2k16\glb\eqnedt322016-kb4011574-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 18:07:10.65 - Warning: Installation of ..\o2k16\glb\lync2016-kb4475545-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 18:07:11.57 - Warning: Installation of ..\o2k16\glb\msodll99l2016-kb4475514-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 18:07:12.79 - Warning: Installation of ..\o2k16\glb\osfclient2016-kb4464534-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 18:07:14.00 - Warning: Installation of ..\o2k16\glb\project2016-kb4475589-fullfile-x64-glb.exe failed (errorlevel: 5)
+Sun 04/05/2020 18:07:14.24 - Info: Installed 8 updates
+Sun 04/05/2020 18:07:14.53 - Info: Restored screensaver setting
+Sun 04/05/2020 18:07:14.73 - Info: Installation successful
+Sun 04/05/2020 18:07:14.82 - Info: Ending WSUS Offline Update
