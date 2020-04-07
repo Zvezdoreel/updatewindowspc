@@ -8,11 +8,11 @@
     win_say:
       msg:  heeeey sexy lady
   - name: german slution , map and run updates
-    raw: "net use K: \\\\192.168.1.129\\myshare\\client /persistent:no; cmd /c k:\\cmd\\DoUpdate.cmd"
+    raw: "net use K: \\\\DAGON-PC\\myshare\\client /persistent:no; cmd /c k:\\cmd\\DoUpdate.cmd"
     register: command_result
     changed_when: "'Installation successful' in command_result.stdout"
     failed_when:
       - "'Nothing to do' not in command_result.stdout"
       - "'Installation successful.' not in command_result.stdout"
   - name: copy log file to log directory on the server
-    win_shell: "net use K: '\\\\192.168.1.129\\myshare\\client' /persistent:no;  cp -path 'c:\\windows\\wsusofflineupdate.log' -destination 'k:\\updateslogs\\{{ inventory_hostname }}.log' -force"
+    win_shell: "net use K: '\\\\DAGON-PC\\myshare\\client' /persistent:no;  cp -path 'c:\\windows\\wsusofflineupdate.log' -destination 'k:\\updateslogs\\{{ inventory_hostname }}.log' -force"
