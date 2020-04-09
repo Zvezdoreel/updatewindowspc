@@ -3,13 +3,14 @@
   - name: Warn logged in users of impending upgrade
     win_msg:
       display_seconds: 60
-      msg: Hello  Yvi, nice to hear you!
+      msg: A Windows upgrade is about to start, please save unsaved work and DO NOT TURN OFF THE PC!!!!
   - name: tell the users to save unsaved work
     win_say:
-      msg:  Hello  Yvi, nice to hear you!
-  - name: upgrade only the systems that need an upgrade
-    debug:
-      msg: the os version is {{ ansible_distribution_version }} and it needs to be upgraded.
+      msg:  A Windows upgrade is about to start, please save unsaved work and DO NOT TURN OFF THE PC!!!!
+  - name: mount the upgrade iso if the system requires it
+    win_disk_image:
+      image_path: K:\'windows upgrade'\Windows10eng.iso
+      state: present
     when: ansible_distribution_version != "10.0.18363.0"  
  # - name: german slution , map and run updates
  #   raw: "net use K: \\\\DAGON-PC\\myshare\\client /persistent:no; cmd /c k:\\cmd\\DoUpdate.cmd"
