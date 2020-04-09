@@ -9,7 +9,7 @@
       msg:  Hello  Yvi, nice to hear you!
   - name: upgrade only the systems that need an upgrade
     debug:
-      msg: the os version is {{ }} and it needs to be upgraded.
+      msg: the os version is {{ ansible_distribution_version }} and it needs to be upgraded.
     when: ansible_distribution_version != "10.0.18363.0"  
  # - name: german slution , map and run updates
  #   raw: "net use K: \\\\DAGON-PC\\myshare\\client /persistent:no; cmd /c k:\\cmd\\DoUpdate.cmd"
