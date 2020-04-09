@@ -9,7 +9,7 @@
       msg:  A Windows upgrade is about to start, please save unsaved work and DO NOT TURN OFF THE PC!!!!
   - name: mount the upgrade iso if the system requires it
     win_disk_image:
-      image_path: \\\\DAGON-PC\\myshare\\client\\'windows upgrade'\\Windows10eng.iso
+      image_path: \\DAGON-PC\myshare\'windows upgrade'\Windows10eng.iso
       state: present
     when: ansible_distribution_version != "10.0.18363.1"  
  # - name: german slution , map and run updates
