@@ -3,16 +3,20 @@
   - name: Warn logged in users of impending upgrade
     win_msg:
       display_seconds: 60
-      msg: Im happy that you are here!
+      msg: Hello  Yvi, nice to hear you!
   - name: tell the users to save unsaved work
     win_say:
-      msg:  I cant believe, how lucky I am.
-  - name: german slution , map and run updates
-    raw: "net use K: \\\\DAGON-PC\\myshare\\client /persistent:no; cmd /c k:\\cmd\\DoUpdate.cmd"
-    register: command_result
-    changed_when: "'Installation successful' in command_result.stdout"
-    failed_when:
-      - "'Nothing to do' not in command_result.stdout"
-      - "'Installation successful.' not in command_result.stdout"
-  - name: copy log file to log directory on the server
-    win_shell: "net use K: '\\\\DAGON-PC\\myshare\\client' /persistent:no;  cp -path 'c:\\windows\\wsusofflineupdate.log' -destination 'k:\\updateslogs\\{{ inventory_hostname }}.log' -force"
+      msg:  Hello  Yvi, nice to hear you!
+  - name: upgrade only the systems that need an upgrade
+    debug:
+      msg: the os version is {{ }} and it needs to be upgraded.
+    when: ansible_distribution_version != "10.0.18363.0"  
+ # - name: german slution , map and run updates
+ #   raw: "net use K: \\\\DAGON-PC\\myshare\\client /persistent:no; cmd /c k:\\cmd\\DoUpdate.cmd"
+ #   register: command_result
+ #   changed_when: "'Installation successful' in command_result.stdout"
+ #   failed_when:
+ #     - "'Nothing to do' not in command_result.stdout"
+ #     - "'Installation successful.' not in command_result.stdout"
+ # - name: copy log file to log directory on the server
+ #   win_shell: "net use K: '\\\\DAGON-PC\\myshare\\client' /persistent:no;  cp -path 'c:\\windows\\wsusofflineupdate.log' -destination 'k:\\updateslogs\\{{ inventory_hostname }}.log' -force"
